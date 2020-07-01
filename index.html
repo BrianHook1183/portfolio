@@ -3,49 +3,65 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian's Portfolio</title>
+    <title>Brian's Portfolio | Software Engineer | Chicago, IL</title>
     <meta name="description" content="Brian's Portfolio">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-<hr>
+    <hr>
     <header>
-      <h1>Brian's Portfolio</h1>
-       <!-- <nav>
-        <ul>
-          <li>nav1</li>
-          <li>nav2</li>
-          <li>nav3</li>
-        </ul>
-      </nav> -->
+      <div>
+        <h1>Brian Hook</h1>
+        <h2>Software Engineer</h2>
+        <h3>(...coming soon)</h3>
+      </div>
+       <nav> <!-- Navigation links that snap to content-->
+         <h3>jump to..</h3>
+        <ol>
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ol>
+      </nav>
     </header>
-<hr>
-    <main>
-      <section>
-        <h2>Intro</h2>
-          <p>Hello! My name is Brian Hook and I am an aspiring software engineer in Thinkful's Engineering Coding Bootcamp.I am  using my previous 6+ years of Search Engine Optimization and Web Development experience to springboard into a new coding career!</p>
+    <hr>
+    <main> <!-- contains all content besides header and footer -->
+      <section id="intro">
+        <img class="centered-image" src="images/headshot.png" alt="Brian Hook profile picture" width="25%">
+        <h2>Hello!</h2>
+          <p>My name is Brian Hook and I am an aspiring software engineer in Thinkful's Engineering Coding Bootcamp.I am  using my previous 6+ years of Search Engine Optimization and Web Development experience to springboard into a new coding career!</p>
       </section>
-      <section>
-        <h2>About Me</h2>
+      <section id="about">
+        <h2>More About Myself</h2>
           <p>I became interested in coding when I saw how complex problems could be solved with simple solutions. While I sometimes enjoy the challenge of relying on myself to work through road-blocks, I would rather collaborate with others to share knowledge and new perspectives that help everyone involved.</p>
-          <!-- TO DO replace music link with a link to my music somehow? have picture or funny bunny ear animation or something for rabbit. OR each of my interests has a picture of me doing those things to the side of the content -->
-          <p>I also have many other interests, including <a href="https://www.flickr.com/photos/brianhook/">wildlife photography</a>, <a href="https://flic.kr/p/5yJRT4">music / recording</a>, and hanging out with my free-range rabbit.</p>
-          <p>I grew up an hour north of Chicago in Lake Villa, IL, and currently reside in vibrant yet vibranium-less Wauconda, IL (forever)</p> <!-- TO DO add in a picture or give of black panther? -->
+          <p>I also have many other interests, including:</p>
+            <ul>
+              <li><a href="https://www.flickr.com/photos/brianhook/">wildlife photography</a></li>
+              <li>music / recording</li>
+              <li>hanging out with my free-range rabbit</li>
+            </ul>
+          <!-- TO DO add three side by side photos representing interests -->
+          <p>FUN FACT: I grew up in a town an hour north of Chicago and still reside nearby in the vibrant, yet sadly vibranium-less, Wauconda(forever), IL.</p>
+          <img class="centered-image" src="images/black-panther.jpg" alt="a small black panther" width="75%">
+          <p class="photo-credit">Photo by <a href="https://unsplash.com/@jcguarinpenaranda?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Juan Camilo Guarin P</a> on <a href="https://unsplash.com/s/photos/black-panther?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
       </section>
       <!-- <section>
-        <h2>Projects</h2>
+        <h2>Projects</h2> Placeholder for future updates
       </section>   -->
-      <section>
-        <h2>Contact</h2>
-          <p>You can get in contact with me through <a href="https://www.linkedin.com/in/brian-hook-65021165">LinkedIn</a>, or <a href="https://github.com/BrianHook1183/">GitHub</a>.</p>
-            <!-- TO DO add in linkedin and githug icons, maybe instead of text all together -->
+      <section id="contact">
+        <h2>Contact / Experience</h2>
+          <p>You can find more information regarding my past experience on <a href="https://www.linkedin.com/in/brian-hook-65021165">LinkedIn</a>, and current projects through my <a href="https://github.com/BrianHook1183/">GitHub</a>.</p>
+          <!-- TO DO add in linkedin and githug icons, maybe instead of text all together -->
+          <p>Feel free to contact me through either. I look forward to hearing from you!</p>
+          <br />
+          <p>**Come back soon to check out all the exciting (and hopefully impressive!) portfolio pices i will be posting here from my bootcamp in the coming months.**</p>
       </section>
     </main>
-<hr>
+    <hr>
     <footer>
       <p>Copyright Brian Hook 2020</p>
     </footer>
-<hr>
+    <hr>
   </body>
 </html>
