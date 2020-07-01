@@ -1,1 +1,99 @@
+body {
+  width: 75%;
+  margin: auto;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+}
 
+section {
+  margin: 10em 0em; /* breaks up sections vertically */
+}
+
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+header div {
+  padding: 2em;
+  border: .1em solid black;
+  background: url("images/background.jpg") no-repeat center center fixed; /* "fixed" gives the window effect as you scroll by */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-color: #E5DCE2; /* backup background if image is unavailable*/
+}
+
+footer {
+  text-align: center;
+}
+
+
+/* navigation */
+
+nav {
+  margin-bottom: 1em; /* give a little breathing room for nav and hr*/
+}
+nav h3 {
+  color: #B8BFB0;
+  margin-bottom: -.3em;
+}
+nav ol {
+  list-style-type: none; /* clears default styles from nav list*/
+  margin: 0;
+  padding: 0;
+}
+nav li {
+    margin: .5em; /* creates space between nav items*/
+    background-color: #EBEDE9;
+    border-radius: 1em; /*rounds the corners of nav items*/
+    text-align: center;
+}
+nav li a {
+  padding: .5em;  /*  increases size of background for each nav item*/
+  display: block; /* makes entire area clickable */
+  letter-spacing: .3em;
+}
+
+
+/* Headings */
+
+h3, h2, h1 {
+  text-align: center; /* center all headings*/
+}
+
+h2 {
+  color: grey;
+  letter-spacing: .4em;
+}
+
+/* PHotos  */
+
+.centered-image {
+  margin: 10px auto 20px;
+  display: block;
+}
+.photo-credit {
+  font-size: .75em;
+  text-align: center;
+}
+
+
+/* Link styling */
+a {
+   text-decoration: none ; /* removes underline */
+}
+a:link {
+  color: blue;
+}
+nav a:link {
+  color: black;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: green;
+  cursor: pointer;
+}
+a:active {
+  /* color: rgb(13, 63, 34); */
+}
