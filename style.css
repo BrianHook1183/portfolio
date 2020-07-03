@@ -6,8 +6,8 @@ body {
 
 section {
   margin: 10em 0em; /* breaks up sections vertically */
+  border: 2px solid red; /* temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
-
 
 p {
   font-size: 1em;
@@ -68,13 +68,17 @@ h2 {
 /* PHotos  */
 
 .centered-image {
-  margin: 10px auto 20px;
+  margin: auto;
+  max-width: 100%;
   display: block;
+  border: 2px solid blue; /* temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 .photo-credit {
   font-size: .75em;
   text-align: center;
 }
+
+
 
 
 /* Link styling */
