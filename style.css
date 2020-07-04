@@ -109,8 +109,9 @@ h2 {
 
 .item {
   flex: 1;
-  border: 2px solid grey; /* temporary to visualize my flexbox layout */
+  border: 2px solid #EBEDE9; /* temporary to visualize my flexbox layout */
   margin: 2px;  /*temporary to give some room to visualize my flexbox layout */
+  padding: 5px;  /* gives space between item border and contents. temporary depending on how item borders change in future versions */
 }
 
 
@@ -137,6 +138,9 @@ h2 {
 }
 .ghost {
   opacity: 0.75;
+}
+.mat {
+    background-color: #EBEDE9;
 }
 
 
