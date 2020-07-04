@@ -14,6 +14,10 @@ p {
   line-height: 1.5em;
 }
 
+li {
+margin-bottom: 1.5em; /* gives list items some breathing room */
+}
+
 header div {
   padding: 2em;
   border: .1em solid black;
@@ -80,20 +84,30 @@ h2 {
 }
 
 
+@media all and (min-width: 700px) {
+  .group {
+    flex-direction: row;
+  }
+}
 
-/* Photos  */
+
+
+/* Images  */
 
 .centered-image {
   margin: auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 20em;
   display: block;
-  border: 2px solid blue; /* temporary for visual help. REMOVE BEFORE SUBMISSION*/
+  border: 2px dotted blue; /* temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 .photo-credit {
   font-size: .75em;
   text-align: center;
 }
-
+.ghost {
+  opacity: 0.75;
+}
 
 
 
