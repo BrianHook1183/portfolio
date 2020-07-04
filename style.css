@@ -6,7 +6,7 @@ body {
 
 section {
   margin: 10em 0em; /* breaks up sections vertically */
-  border: 2px solid red; /* temporary for visual help. REMOVE BEFORE SUBMISSION*/
+  /*border: 2px solid red;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 
 p {
@@ -74,13 +74,13 @@ h2 {
 .group {
   display: flex;
   flex-direction: column;
-  border: 2px solid green; /* temporary for visual help. REMOVE BEFORE SUBMISSION*/
+  /*border: 2px solid green;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 
 .item {
   flex: 1;
-  border: 2px solid orange;
-  margin: 2px; /* temporary to give some room to visualize my flexbox layout */
+  border: 2px solid grey; /* temporary to visualize my flexbox layout */
+  margin: 2px;  /*temporary to give some room to visualize my flexbox layout */
 }
 
 
@@ -99,7 +99,7 @@ h2 {
   width: 100%;
   max-width: 20em;
   display: block;
-  border: 2px dotted blue; /* temporary for visual help. REMOVE BEFORE SUBMISSION*/
+  /*border: 2px dotted blue;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 .photo-credit {
   font-size: .75em;
