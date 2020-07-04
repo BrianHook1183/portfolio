@@ -9,6 +9,10 @@ section {
   /*border: 2px solid red;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 
+
+
+/* Text and content */
+
 p {
   font-size: 1em;
   line-height: 1.5em;
@@ -18,6 +22,12 @@ li {
 margin-bottom: 1.5em; /* gives list items some breathing room */
 }
 
+
+
+
+
+
+
 header div {
   padding: 2em;
   border: .1em solid black;
@@ -25,6 +35,12 @@ header div {
   background-size: cover; /* Resize the background image to cover the entire container */
   background-color: #E5DCE2; /* backup background if image is unavailable*/
 }
+
+
+
+
+
+
 
 footer {
   text-align: center;
@@ -44,17 +60,31 @@ nav ol {
   list-style-type: none; /* clears default styles from nav list*/
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 nav li {
     margin: .5em; /* creates space between nav items*/
     background-color: #EBEDE9;
-    border-radius: 1em; /*rounds the corners of nav items*/
+    border-radius: 1em; /*rounds the corners of nav item bg*/
     text-align: center;
 }
 nav li a {
   padding: .5em;  /*  increases size of background for each nav item*/
   display: block; /* makes entire area clickable */
   letter-spacing: .3em;
+}
+
+@media all and (min-width: 700px) {
+  nav ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav li {
+   flex: 1;   /* nav item backgrounds fill full width of nav bar */
+    }
 }
 
 
