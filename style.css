@@ -6,12 +6,7 @@ body {
 
 section {
   margin: 10em 0em; /* breaks up sections vertically */
-}
-
-
-p {
-  font-size: 1em;
-  line-height: 1.5em;
+  /*border: 2px solid red;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 
 header div {
@@ -27,6 +22,23 @@ footer {
 }
 
 
+
+/* Text and content */
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+li {
+margin-bottom: 1em; /* gives list items some breathing room */
+}
+.centered {
+  text-align: center;
+}
+
+
+
 /* navigation */
 
 nav {
@@ -40,17 +52,31 @@ nav ol {
   list-style-type: none; /* clears default styles from nav list*/
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 nav li {
     margin: .5em; /* creates space between nav items*/
     background-color: #EBEDE9;
-    border-radius: 1em; /*rounds the corners of nav items*/
+    border-radius: 1em; /*rounds the corners of nav item bg*/
     text-align: center;
 }
 nav li a {
   padding: .5em;  /*  increases size of background for each nav item*/
   display: block; /* makes entire area clickable */
   letter-spacing: .3em;
+}
+
+@media all and (min-width: 700px) {
+  nav ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav li {
+   flex: 1;   /* nav item backgrounds fill full width of nav bar */
+  }
 }
 
 
@@ -65,19 +91,59 @@ h2 {
   letter-spacing: .4em;
 }
 
-/* PHotos  */
+
+
+/* containers for flexbox */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid green;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
+}
+@media all and (min-width: 700px) {
+  .group {
+    flex-direction: row;
+  }
+}
+
+.item {
+  flex: 1;
+  /*border: 2px solid #EBEDE9;  temporary to visualize my flexbox layout */
+  margin: 2px;  /*temporary to give some room to visualize my flexbox layout */
+  padding: 5px;  /* gives space between item border and contents. temporary depending on how item borders change in future versions */
+}
+
+.project {
+  border: 2px solid #EBEDE9;
+}
+
+
+
+/* Images  */
 
 .centered-image {
-  margin: 10px auto 20px;
+  margin: auto;
+  width: 100%;
+  max-width: 20em;
   display: block;
+  /*border: 2px dotted blue;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
-.photo-credit {
-  font-size: .75em;
-  text-align: center;
+.small {
+  max-width: 5em;
+}
+.ghost {
+  opacity: 0.75;
+}
+.ghost2 {
+    opacity: 0.05;
+}
+.mat {
+    background-color: #EBEDE9;
 }
 
 
 /* Link styling */
+
 a {
    text-decoration: none ; /* removes underline */
 }
@@ -96,4 +162,11 @@ a:hover {
 }
 a:active {
   /* color: rgb(13, 63, 34); */
+}
+
+
+/* Contact Form */
+form input,
+form textarea {
+  width: 100%;
 }
