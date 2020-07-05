@@ -9,6 +9,18 @@ section {
   /*border: 2px solid red;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
 }
 
+header div {
+  padding: 2em;
+  border: .1em solid black;
+  background: url("images/background.jpg") no-repeat center center fixed; /* "fixed" gives the window effect as you scroll by */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-color: #E5DCE2; /* backup background if image is unavailable*/
+}
+
+footer {
+  text-align: center;
+}
+
 
 
 /* Text and content */
@@ -25,26 +37,6 @@ margin-bottom: 1em; /* gives list items some breathing room */
   text-align: center;
 }
 
-
-
-
-header div {
-  padding: 2em;
-  border: .1em solid black;
-  background: url("images/background.jpg") no-repeat center center fixed; /* "fixed" gives the window effect as you scroll by */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  background-color: #E5DCE2; /* backup background if image is unavailable*/
-}
-
-
-
-
-
-
-
-footer {
-  text-align: center;
-}
 
 
 /* navigation */
@@ -84,7 +76,7 @@ nav li a {
   }
   nav li {
    flex: 1;   /* nav item backgrounds fill full width of nav bar */
-    }
+  }
 }
 
 
@@ -100,11 +92,18 @@ h2 {
 }
 
 
+
 /* containers for flexbox */
+
 .group {
   display: flex;
   flex-direction: column;
   /*border: 2px solid green;  temporary for visual help. REMOVE BEFORE SUBMISSION*/
+}
+@media all and (min-width: 700px) {
+  .group {
+    flex-direction: row;
+  }
 }
 
 .item {
@@ -116,13 +115,6 @@ h2 {
 
 .project {
   border: 2px solid #EBEDE9;
-}
-
-
-@media all and (min-width: 700px) {
-  .group {
-    flex-direction: row;
-  }
 }
 
 
@@ -143,7 +135,7 @@ h2 {
   opacity: 0.75;
 }
 .ghost2 {
-    opacity: 0.25;
+    opacity: 0.05;
 }
 .mat {
     background-color: #EBEDE9;
@@ -151,6 +143,7 @@ h2 {
 
 
 /* Link styling */
+
 a {
    text-decoration: none ; /* removes underline */
 }
