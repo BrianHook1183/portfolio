@@ -8,7 +8,6 @@ section {
   margin: 10em 0em; /* breaks up sections vertically */
 }
 
-
 p {
   font-size: 1em;
   line-height: 1.5em;
@@ -16,16 +15,15 @@ p {
 
 header div {
   padding: 2em;
-  border: .1em solid black;
+  border: 0.1em solid black;
   background: url("images/background.jpg") no-repeat center center fixed; /* "fixed" gives the window effect as you scroll by */
   background-size: cover; /* Resize the background image to cover the entire container */
-  background-color: #E5DCE2; /* backup background if image is unavailable*/
+  background-color: #e5dce2; /* backup background if image is unavailable*/
 }
 
 footer {
   text-align: center;
 }
-
 
 /* navigation */
 
@@ -33,8 +31,8 @@ nav {
   margin-bottom: 1em; /* give a little breathing room for nav and hr*/
 }
 nav h3 {
-  color: #B8BFB0;
-  margin-bottom: -.3em;
+  color: #646d5a;
+  margin-bottom: -0.3em;
 }
 nav ol {
   list-style-type: none; /* clears default styles from nav list*/
@@ -42,27 +40,28 @@ nav ol {
   padding: 0;
 }
 nav li {
-    margin: .5em; /* creates space between nav items*/
-    background-color: #EBEDE9;
-    border-radius: 1em; /*rounds the corners of nav items*/
-    text-align: center;
+  margin: 0.5em; /* creates space between nav items*/
+  background-color: #ebede9;
+  border-radius: 1em; /*rounds the corners of nav items*/
+  text-align: center;
 }
 nav li a {
-  padding: .5em;  /*  increases size of background for each nav item*/
+  padding: 0.5em; /*  increases size of background for each nav item*/
   display: block; /* makes entire area clickable */
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
 }
-
 
 /* Headings */
 
-h3, h2, h1 {
+h3,
+h2,
+h1 {
   text-align: center; /* center all headings*/
 }
 
 h2 {
-  color: grey;
-  letter-spacing: .4em;
+  color: rgb(80, 80, 80);
+  letter-spacing: 0.4em;
 }
 
 /* PHotos  */
@@ -72,14 +71,13 @@ h2 {
   display: block;
 }
 .photo-credit {
-  font-size: .75em;
+  font-size: 0.75em;
   text-align: center;
 }
 
-
 /* Link styling */
 a {
-   text-decoration: none ; /* removes underline */
+  text-decoration: none; /* removes underline */
 }
 a:link {
   color: blue;
