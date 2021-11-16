@@ -11,17 +11,15 @@ section {
 
 header div {
   padding: 2em;
-  border: .1em solid black;
+  border: 0.1em solid black;
   background: url("images/background.jpg") no-repeat center center fixed; /* "fixed" gives the window effect as you scroll by */
   background-size: cover; /* Resize the background image to cover the entire container */
-  background-color: #E5DCE2; /* backup background if image is unavailable*/
+  background-color: #e5dce2; /* backup background if image is unavailable*/
 }
 
 footer {
   text-align: center;
 }
-
-
 
 /* Text and content */
 
@@ -31,13 +29,11 @@ p {
 }
 
 li {
-margin-bottom: 1em; /* gives list items some breathing room */
+  margin-bottom: 1em; /* gives list items some breathing room */
 }
 .centered {
   text-align: center;
 }
-
-
 
 /* navigation */
 
@@ -45,8 +41,8 @@ nav {
   margin-bottom: 1em; /* give a little breathing room for nav and hr*/
 }
 nav h3 {
-  color: #B8BFB0;
-  margin-bottom: -.3em;
+  color: #b8bfb0;
+  margin-bottom: -0.3em;
 }
 nav ol {
   list-style-type: none; /* clears default styles from nav list*/
@@ -57,15 +53,15 @@ nav ol {
   justify-content: center;
 }
 nav li {
-    margin: .5em; /* creates space between nav items*/
-    background-color: #EBEDE9;
-    border-radius: 1em; /*rounds the corners of nav item bg*/
-    text-align: center;
+  margin: 0.5em; /* creates space between nav items*/
+  background-color: #ebede9;
+  border-radius: 1em; /*rounds the corners of nav item bg*/
+  text-align: center;
 }
 nav li a {
-  padding: .5em;  /*  increases size of background for each nav item*/
+  padding: 0.5em; /*  increases size of background for each nav item*/
   display: block; /* makes entire area clickable */
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
 }
 
 @media all and (min-width: 700px) {
@@ -75,23 +71,22 @@ nav li a {
     justify-content: space-between;
   }
   nav li {
-   flex: 1;   /* nav item backgrounds fill full width of nav bar */
+    flex: 1; /* nav item backgrounds fill full width of nav bar */
   }
 }
 
-
 /* Headings */
 
-h3, h2, h1 {
+h3,
+h2,
+h1 {
   text-align: center; /* center all headings*/
 }
 
 h2 {
   color: grey;
-  letter-spacing: .4em;
+  letter-spacing: 0.4em;
 }
-
-
 
 /* containers for flexbox */
 
@@ -109,15 +104,13 @@ h2 {
 .item {
   flex: 1;
   /*border: 2px solid #EBEDE9;  temporary to visualize my flexbox layout */
-  margin: 2px;  /*temporary to give some room to visualize my flexbox layout */
-  padding: 5px;  /* gives space between item border and contents. temporary depending on how item borders change in future versions */
+  margin: 2px; /*temporary to give some room to visualize my flexbox layout */
+  padding: 5px; /* gives space between item border and contents. temporary depending on how item borders change in future versions */
 }
 
 .project {
-  border: 2px solid #EBEDE9;
+  border: 2px solid #ebede9;
 }
-
-
 
 /* Images  */
 
@@ -135,17 +128,16 @@ h2 {
   opacity: 0.75;
 }
 .ghost2 {
-    opacity: 0.05;
+  opacity: 0.05;
 }
 .mat {
-    background-color: #EBEDE9;
+  background-color: #ebede9;
 }
-
 
 /* Link styling */
 
 a {
-   text-decoration: none ; /* removes underline */
+  text-decoration: none; /* removes underline */
 }
 a:link {
   color: blue;
@@ -160,10 +152,9 @@ a:hover {
   color: green;
   cursor: pointer;
 }
-a:active {
-  /* color: rgb(13, 63, 34); */
-}
-
+/* a:active {
+  color: rgb(13, 63, 34);
+} */
 
 /* Contact Form */
 form input,
