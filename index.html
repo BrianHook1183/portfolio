@@ -2,72 +2,139 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brian's Portfolio | Full Stack Engineer | Web Developer | SEO</title>
-    <meta name="description" content="Brian's Portfolio">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <meta name="description" content="Brian's Portfolio" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <hr>
+    <hr />
     <header>
       <div>
         <h1>Brian Hook</h1>
         <h2>Software Engineer</h2>
       </div>
-        <nav> <!-- Navigation links that snap to content-->
-         <h3>jump to..</h3>
-          <ol>
-            <li><a href="#intro">intro</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ol>
-        </nav>
+      <nav>
+        <!-- Navigation links that snap to content-->
+        <h3>jump to..</h3>
+        <ol>
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ol>
+      </nav>
     </header>
-    <hr>
-    <main> <!-- contains all content besides header and footer -->
+    <hr />
+    <main>
+      <!-- contains all content besides header and footer -->
       <section id="intro">
         <div class="group">
           <div class="item">
-            <img class="centered-image ghost" src="images/headshot.png" alt="Brian Hook profile picture">
+            <img
+              class="centered-image ghost"
+              src="images/headshot.png"
+              alt="Brian Hook profile picture"
+            />
           </div>
           <div class="item">
             <h2>Hello!</h2>
-              <p>My name is Brian Hook and I am an aspiring software engineer from Northern Illinois.</p>
-              <p>I am currently in Thinkful's Engineering Coding Bootcamp where I am using my previous 6+ years of Search Engine Optimization and Web Development experience to springboard into a new coding career!</p>
+            <p>
+              My name is Brian Hook and I am a software engineer in the
+              Chicagoland area.
+            </p>
+            <p>
+              I recently completed Thinkful's Engineering Coding Bootcamp and am
+              using my previous 6+ years of SEO and Web Development experience
+              to springboard into a full-time software engineering career!
+            </p>
           </div>
         </div>
       </section>
       <section id="projects">
         <h2>Projects</h2>
-        <p class="centered">***This is where my projects will go in the future***</p>
-        <div class="group"> <!-- Holds all projects. Currently has placeholder content -->
-          <div class="item mat project"> <!-- "item" holds one project each. "mat" adds grey background, use on every other item until new css is written for nth child -->
-            <!--  title, description, list of skills used, screenshot (optional), and link to its GitHub repo and live app -->
-            <h3>(placeholder #1)</h3>
+        <!-- <p class="centered"></p> -->
+        <div class="group">
+          <!-- Holds all projects -->
+          <div class="item mat project">
+            <!-- "item" holds one project each. "mat" adds grey background, use on every other item until new css is written for nth child -->
+            <h3>Reservation System for Restaurants</h3>
             <ul>
-              <li>Project Title</li>
-              <li>Project Description</li>
-              <li>Skills Used:
+              <li>
+                full stack application that allows restaurant personnel of fine
+                dining establishments to handle incoming reservation requests,
+                as well as keep track of available tables as parties arrive and
+                depart.
+              </li>
+              <a
+                href="https://raw.githubusercontent.com/BrianHook1183/Restaurant-Reservations_Fullstack-Capstone/main/readme-screenshots/dashboard.jpg"
+                target="blank"
+              >
+                <img
+                  src="images/dashboard.jpg"
+                  alt="screenshot of the dashboard view for the restaurant reservation system"
+                  height="200"
+                  title="Dashboard view"
+                />
+              </a>
+              <li>
+                <a
+                  href="https://github.com/BrianHook1183/Restaurant-Reservations_Fullstack-Capstone#readme"
+                  target="blank"
+                  >...more screenshots</a
+                >
+              </li>
+              <li>
+                Skills Used:
                 <ul>
-                  <li>HTML, CSS, JavaScript</li>
+                  <li>
+                    <strong>Front-end:</strong> React (router, hooks, error
+                    boundaries, etc...), Bootstrap, e2e tests
+                  </li>
+                  <li>
+                    <strong>Back-end:</strong>: Node, Express, Knex, PostgreSQL
+                    (via ElephantSQL), Jest
+                  </li>
                 </ul>
               </li>
-              <li><a href="https://github.com/BrianHook1183?tab=repositories" target="blank">Github repo</a> | <a href="http://comingsoon.com/" target="blank">Live app</a></li>
+              <li>
+                <a
+                  href="https://github.com/BrianHook1183/Restaurant-Reservations_Fullstack-Capstone"
+                  target="blank"
+                  >Github repo</a
+                >
+                |
+                <a
+                  href="https://final-capstone-frontend.herokuapp.com/"
+                  target="blank"
+                  >Live app</a
+                >
+              </li>
             </ul>
           </div>
           <div class="item project">
-            <h3>(placeholder #2)</h3>
+            <h3>Flashcards</h3>
             <ul>
               <li>Project Title</li>
               <li>Project Description</li>
-              <li>Skills Used:
+              <li>
+                Skills Used:
                 <ul>
                   <li>React, Responsive Design, Unit Testing</li>
                 </ul>
               </li>
-              <li><a href="https://github.com/BrianHook1183?tab=repositories" target="blank">Github repo</a> | <a href="http://comingsoon.com/" target="blank">Live app</a></li>
+              <li>
+                <a
+                  href="https://github.com/BrianHook1183/Flashcards_React"
+                  target="blank"
+                  >Github repo</a
+                >
+                | <a href="http://comingsoon.com/" target="blank">Live app</a>
+              </li>
             </ul>
           </div>
           <div class="item mat project">
@@ -75,70 +142,120 @@
             <ul>
               <li>Project Title</li>
               <li>Project Description</li>
-              <li>Skills Used:
+              <li>
+                Skills Used:
                 <ul>
                   <li>Node, Express, Knex, Postgres</li>
                 </ul>
               </li>
-              <li><a href="https://github.com/BrianHook1183?tab=repositories" target="blank">Github repo</a> | <a href="http://comingsoon.com/" target="blank">Live app</a></li>
+              <li>
+                <a
+                  href="https://github.com/BrianHook1183?tab=repositories"
+                  target="blank"
+                  >Github repo</a
+                >
+                | <a href="http://comingsoon.com/" target="blank">Live app</a>
+              </li>
             </ul>
           </div>
         </div>
       </section>
       <section id="about">
         <h2>More About Myself</h2>
-          <div class="group">
-            <div class="item">
-              <h3>Coding Passion / Teamwork</h3>
-              <p>I became interested in coding when I saw how complex problems could be solved with simple solutions. While I sometimes enjoy the challenge of relying on myself to work through road-blocks, I would rather collaborate with others to share knowledge and new perspectives that help everyone involved succeed.</p>
-            </div>
-            <div class="item">
-              <h3>Services Offered</h3>
-              <p>List of services I can provide a client:</p>
-                <ul>
-                  <li>Web Development</li>
-                  <li>Front-end Engineering</li>
-                  <li>Software Design</li>
-                  <li>Search Engine Optimization</li>
-                </ul>
-            </div>
+        <div class="group">
+          <div class="item">
+            <h3>Coding Passion / Teamwork</h3>
+            <p>
+              I became interested in coding when I saw how complex problems
+              could be solved with simple solutions. While I sometimes enjoy the
+              challenge of relying on myself to work through road-blocks, I
+              would rather collaborate with others to share knowledge and new
+              perspectives that help everyone involved succeed.
+            </p>
           </div>
-          <hr>
-          <div class="group">
-            <div class="item"> <!-- TO DO add three side by side photos representing interests -->
-              <h3>Hobbies</h3>
-              <p>I also have many interests outside of coding, including:</p>
-                <ul>
-                  <li><a href="https://www.flickr.com/photos/brianhook/">wildlife photography</a></li>
-                  <li>music / recording</li>
-                  <li>hanging out with my free-range rabbits</li>
-                </ul>
-            </div>
-            <div class="item">
-              <h3>Fun Fact</h3>
-              <p>I grew up in a town an hour north of Chicago and still reside in the nearby vibrant yet sadly vibranium-less, Wauconda(forever), IL.</p>
-              <img class="centered-image small ghost2" src="images/black-panther-mask.png" alt="black panther logo">
-            </div>
+          <div class="item">
+            <h3>Services Offered</h3>
+            <p>List of services I can provide a client:</p>
+            <ul>
+              <li>Web Development</li>
+              <li>Front-end Engineering</li>
+              <li>Software Design</li>
+              <li>Search Engine Optimization</li>
+            </ul>
           </div>
+        </div>
+        <hr />
+        <div class="group">
+          <div class="item">
+            <!-- TO DO add three side by side photos representing interests -->
+            <h3>Hobbies</h3>
+            <p>I also have many interests outside of coding, including:</p>
+            <ul>
+              <li>
+                <a href="https://www.flickr.com/photos/brianhook/"
+                  >wildlife photography</a
+                >
+              </li>
+              <li>music / recording</li>
+              <li>hanging out with my free-range rabbits</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>Fun Fact</h3>
+            <p>
+              I grew up in a town an hour north of Chicago and still reside in
+              the nearby vibrant yet sadly vibranium-less, Wauconda(forever),
+              IL.
+            </p>
+            <img
+              class="centered-image small ghost2"
+              src="images/black-panther-mask.png"
+              alt="black panther logo"
+            />
+          </div>
+        </div>
       </section>
       <section id="contact">
         <h2>Links / Contact</h2>
         <div class="group">
           <div class="item">
-            <p>You can find more information regarding my past experience on <a href="https://www.linkedin.com/in/brian-hook-65021165">LinkedIn</a>, and current projects through my <a href="https://github.com/BrianHook1183/">GitHub</a>.</p>
+            <p>
+              You can find more information regarding my past experience on
+              <a href="https://www.linkedin.com/in/brian-hook-65021165"
+                >LinkedIn</a
+              >, and current projects through my
+              <a href="https://github.com/BrianHook1183/">GitHub</a>.
+            </p>
             <!-- TO DO add in LinkedIn and github icons, maybe instead of text all together -->
           </div>
-         <div class="item">
+          <div class="item">
             <p>Feel free to contact me through this form:</p>
             <div class="mat">
               <form action="https://formspree.io/xzbjjrkb" method="POST">
                 <fieldset>
                   <label for="your-name">Your name:</label>
-                  <input id="your-name" type="text" name="name" placeholder="Enter your name" required>
+                  <input
+                    id="your-name"
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                  />
                   <label for="your-email">Your email:</label>
-                  <input id="your-email" type="text" name="email" placeholder="Enter your email" required>
+                  <input
+                    id="your-email"
+                    type="text"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
                   <label for="your-message">Your message:</label>
-                  <textarea id="your-message" name="message" placeholder="Enter your message" required></textarea>
+                  <textarea
+                    id="your-message"
+                    name="message"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
                   <button type="submit">Send</button>
                 </fieldset>
               </form>
@@ -147,10 +264,10 @@
         </div>
       </section>
     </main>
-    <hr>
+    <hr />
     <footer>
-      <p>Copyright Brian Hook 2021</p>
+      <p>Copyright Brian Hook 2022</p>
     </footer>
-    <hr>
+    <hr />
   </body>
 </html>
